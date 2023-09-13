@@ -13,6 +13,19 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
+    theme: {
+      colors: {
+        'hijau-theme': '#1C6758',
+      },
+    },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["light", "dark", "valentine", "forest"],
+    
+  },
+  
+
+  
+
 }
